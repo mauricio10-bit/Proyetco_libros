@@ -1,0 +1,74 @@
+# creacion proyecto libros
+npm create vite@latest proyecto_libros
+cd proyecto_libros
+code .
+--
+
+-- crear archivo workspace
+
+-- crear carpetas personalizadas
+
+md src\assets\img
+
+md src\app\componentes
+
+md src\app\componentes\contenedor
+
+md src\app\componentes\libros
+
+md src\app\componentes\otros
+
+md src\app\mocks
+
+md src\app\modelos
+
+md src\app\utilidades
+
+md src\app\utilidades\dominios
+
+md src\app\utilidades\funciones
+
+md src\app\utilidades\misHooks
+
+md src\app\utilidades\rutas
+
+npm i bootstrap
+
+npm i bootstrap-icons
+
+npm i react-bootstrap
+
+npm i react-router-dom
+
+npm i react-toastify
+
+npm i @fortawesome/fontawesome-free
+
+npm i js-sha512
+
+npm i jwt-decode
+
+
+//Dentro de la carpeta "src" en "main.tsx"
+import bootstrap/dist/css/bootstrap.min.css
+
+import bootstrap/dist/js/bootstrap.min.js
+
+-- Desde @fortawesome/fontawesome > css > all.css
+
+import @fortawesome/fontawesome-free/css/all.css
+
+-- Lo mismo con la carpeta de bootstrap-icon.css
+
+
+//Componentes a crear
+1. Cabecera.tsx
+2. Inicio.tsx
+3. NoEncontrado.tsx
+ 
+//Archivos de libros
+1. LibroCrear.tsx
+2. Librolistar.tsx
+3. LibroActualizar.tsx
+4. LibroAdmin.tsx
+5. LibroVerImagen.tsx
